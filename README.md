@@ -6,7 +6,7 @@ Watch the full project demo: [Click here](https://1drv.ms/v/c/ca84ccba0e93da2d/I
 ## Overview
 Simulated a full-chain cyberattack against a Windows VM and detected
 every stage using a 3-layer SOC stack. Attack chain covered:
-recon -> credential brute force -> payload drop → reverse shell C2.
+recon -> credential brute force -> payload drop -> reverse shell C2.
 All stages detected in real time across network and endpoint layers.
 
 ## Environment
