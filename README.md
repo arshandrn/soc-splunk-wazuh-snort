@@ -41,7 +41,7 @@ msfvenom, Nessus Essentials, Kali Linux, Windows 10, VirtualBox
 - [Custom Snort Rules](snort-rules/local.rules)
 
 ## Screenshots
-![Wazuh Agent Active](screenshots/Wazuh dashboard-agent connected-windows10, active.png)
-![108 SYN Scan Events](screenshots/Splunk-108 events of Nessus SYN scan alerts.png)
-![Meterpreter Shell](screenshots/Meterpreter reverse shell terminal-whoami, ipconfig.png)
-![Splunk Process Tree](screenshots/Splunk process tree-backup_service.exe,cmd.exe.png)
+[Wazuh Agent Active](screenshots/Wazuh dashboard-agent connected-windows10, active.png)
+[108 SYN Scan Events](screenshots/Splunk-108 events of Nessus SYN scan alerts.png)
+[Meterpreter Shell](screenshots/Meterpreter reverse shell terminal-whoami, ipconfig.png)
+[Splunk Process Tree](screenshots/Splunk process tree-backup_service.exe,cmd.exe.png)
