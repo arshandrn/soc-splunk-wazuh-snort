@@ -37,7 +37,7 @@ Cisco Talos threat intel feeds, Sysmon, Metasploit Framework,
 msfvenom, Nessus Essentials, Kali Linux, Windows 10, VirtualBox
 
 ## Files in This Repo
-- [Project Report](SOC.pdf)
+- [Project Report](soc.pdf)
 - [Custom Snort Rules](snort-rules/local.rules)
 
 ## Screenshots
