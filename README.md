@@ -37,12 +37,11 @@ Cisco Talos threat intel feeds, Sysmon, Metasploit Framework,
 msfvenom, Nessus Essentials, Kali Linux, Windows 10, VirtualBox
 
 ## Files in This Repo
-- [Project Report](SOC-Splunk-Wazuh-Snort-Report.pdf)
+- [Project Report](SOC.pdf)
 - [Custom Snort Rules](snort-rules/local.rules)
-- [Splunk Detection Queries](splunk-queries/detection-queries.md)
 
 ## Screenshots
-![Wazuh Agent Active](screenshots/fig1-wazuh-agent.png)
+![Wazuh Agent Active](screenshots/Wazuh dashboard-agent connected (windows10, active).png)
 ![108 SYN Scan Events](screenshots/fig4-splunk-syn-events.png)
 ![Meterpreter Shell](screenshots/fig10-meterpreter-shell.png)
 ![Splunk Process Tree](screenshots/fig11-splunk-process-tree.png)
