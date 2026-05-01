@@ -1,18 +1,18 @@
 # Comprehensive SOC Simulation: Splunk + Wazuh + Snort
 
 ## Demo Video
-Watch the full project demo: [Click here](your-onedrive-link-here)
+Watch the full project demo: [Click here](https://1drv.ms/v/c/ca84ccba0e93da2d/IQC4Mx8ZIUJ8RKDjXU25kMtZAcymtKAA9NYmOMrqVvcbgHU?e=SlWkdg)
 
 ## Overview
 Simulated a full-chain cyberattack against a Windows VM and detected
 every stage using a 3-layer SOC stack. Attack chain covered:
-recon → credential brute force → payload drop → reverse shell C2.
+recon -> credential brute force -> payload drop → reverse shell C2.
 All stages detected in real time across network and endpoint layers.
 
 ## Environment
-- Windows VM (10.0.2.10) — victim with SMB, Wazuh Agent, Sysmon
-- Kali VM (10.0.2.11) — attacker with Nessus, Metasploit, msfvenom
-- Ubuntu VM (10.0.2.15) — SOC with Splunk, Wazuh Manager, Snort
+- Windows VM (10.0.2.10) - victim with SMB, Wazuh Agent, Sysmon
+- Kali VM (10.0.2.11) - attacker with Nessus, Metasploit, msfvenom
+- Ubuntu VM (10.0.2.15) - SOC with Splunk, Wazuh Manager, Snort
 
 ## Full Attack Chain + Detection
 
@@ -29,7 +29,7 @@ All stages detected in real time across network and endpoint layers.
 - SMB brute force blocked by Account Lockout Policy
 - EICAR payload detected immediately by Wazuh File Integrity Monitor
 - Custom Snort rule caught Meterpreter C2 on port 4444
-- Sysmon process tree in Splunk showed backup_service.exe → cmd.exe
+- Sysmon process tree in Splunk showed backup_service.exe -> cmd.exe
 
 ## Tools Used
 Splunk Enterprise, Wazuh Manager (EDR), Snort IDS,
@@ -41,7 +41,7 @@ msfvenom, Nessus Essentials, Kali Linux, Windows 10, VirtualBox
 - [Custom Snort Rules](snort-rules/local.rules)
 
 ## Screenshots
-![Wazuh Agent Active](screenshots/Wazuh dashboard-agent connected (windows10, active).png)
-![108 SYN Scan Events](screenshots/fig4-splunk-syn-events.png)
-![Meterpreter Shell](screenshots/fig10-meterpreter-shell.png)
-![Splunk Process Tree](screenshots/fig11-splunk-process-tree.png)
+![Wazuh Agent Active](screenshots/Wazuh dashboard-agent connected-windows10, active.png)
+![108 SYN Scan Events](screenshots/Splunk-108 events of Nessus SYN scan alerts.png)
+![Meterpreter Shell](screenshots/Meterpreter reverse shell terminal-whoami, ipconfig.png)
+![Splunk Process Tree](screenshots/Splunk process tree-backup_service.exe,cmd.exe.png)
