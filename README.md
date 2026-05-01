@@ -39,9 +39,3 @@ msfvenom, Nessus Essentials, Kali Linux, Windows 10, VirtualBox
 ## Files in This Repo
 - [Project Report](soc.pdf)
 - [Custom Snort Rules](snort-rules/local.rules)
-
-## Screenshots
-![Wazuh Agent Active](screenshots/nessusscan_graph.png)
-![108 SYN Scan Events](screenshots/Splunk-108 events of Nessus SYN scan alerts.png)
-![Meterpreter Shell](screenshots/Meterpreter reverse shell terminal-whoami, ipconfig.png)
-![Splunk Process Tree](screenshots/Splunk process tree-backup_service.exe,cmd.exe.png)
