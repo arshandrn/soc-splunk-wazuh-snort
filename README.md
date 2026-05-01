@@ -12,7 +12,7 @@ All stages detected in real time across network and endpoint layers.
 ## Environment
 - Windows VM (10.0.2.10) - victim with SMB, Wazuh Agent, Sysmon
 - Kali VM (10.0.2.11) - attacker with Nessus, Metasploit, msfvenom
-- Ubuntu VM (10.0.2.15) - SOC with Splunk, Wazuh Manager, Snort
+- Ubuntu VM (10.0.2.15) - SOC with Splunk, Wazuh Manager, Snort, Talos
 
 ## Full Attack Chain + Detection
 
