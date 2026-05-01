@@ -1,4 +1,8 @@
+#Nessus SYN Scan Detection
+alert tcp any any -> any any (msg:"Possible Nessus SYN scan"; flags:S; detection_filter:track by_src, count 20, seconds 10; sid:200006; rev:1;)
+
 #Ping Detection
 alert icmp any any -> any any (msg:"PING DETECTED - TRIPWIRE ACTIVATED"; sid:200007; rev:1;)
+
 #Metasploit reverse shell
 alert tcp any any -> any 4444 (msg:"POSSIBLE METASPLOIT REVERSE SHELL DETECTED"; sid:200008; rev:1;)
