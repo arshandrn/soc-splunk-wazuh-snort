@@ -40,3 +40,13 @@ msfvenom, Nessus Essentials, Kali Linux, Windows 10, VirtualBox
 - [Project Report](soc.pdf)
 - [Custom Snort Rules](snort-rules/local.rules)
 - [Screenshots](screenshots)
+
+## Screenshots
+- Wazuh Agent Active
+![Wazuh Agent Active](screenshots/fig1-wazuh-agent.png)
+- 108 SYN Scan Events
+![108 SYN Scan Events](screenshots/fig4-splunk-syn-events.png)
+- Meterpreter Shell
+![Meterpreter Shell](screenshots/fig10-meterpreter-shell.png)
+- Splunk Process Tree
+![Splunk Process Tree](screenshots/fig11-splunk-process-tree.png)
